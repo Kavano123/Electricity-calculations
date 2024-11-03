@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#head{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.select{
+    margin-bottom: 1rem;
+    display: flex;
+    font-size: medium;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: cadetblue;
+    border-width: 0.2re1px;
+   
+}
+
+.select:hover{
+    transform: scale(1.1);
+}
+
+.label{
+    margin-bottom: 1rem;
+    font-size: large;
+
+}
+
+.cashtokw{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.label{
+    font-size: large;
+}
+
+.cashInput{
+    margin-bottom: 1rem;
+}
+
+.headercash{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: bisque;
+    padding: 0.2rem 1rem;
+    gap: 2rem;
+}
+
+.headercash a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+
+}
+
+.kwtocash{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.inputKw{
+    font-size: medium;
+}
+
+#power{
+    margin-right: 8rem;
+    padding: 0.2rem 1.1rem;
+}
+
+#powerUsage{
+    margin-left: 1.9rem;
+}
+
+#time{
+    margin-left: 1rem;
+}
+
+#wattageButton{
+    padding: 0.2rem 2rem;
+}
+
+@media (max-width: 600px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #power{
+        margin-left: 8rem;
+    }
+
+    .label{
+        margin-bottom: 0;
+    }
+
+    .select{
+        margin-bottom: 2rem;
+    }
+
+    #kwcash{
+        margin-left: 1rem;
+    }
+
+    .cashInput{
+        margin-top: 1rem;
+    }
+
+    #inputCash{
+        margin-right: 3rem;
+    }
+
+   #inputWatts{
+    margin-right: 1.3rem;
+   }
+}

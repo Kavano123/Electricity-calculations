@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Power Consumption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="headercash">
+        <a href="index.html">Home</a>
+        <a href="CashtoKW.html">Cash Converter</a>
+        <a href="KWtoCash.html">kW Converter</a>
+    </header>
+
+    <div class="kwtocash">
+        <h2>Calculate Power Consumption</h2>
+    </div>
+
+    <div class="kwtocash">
+        <label for="powerUsage" class="label">Enter kW Value: </label>
+        <input type="text" class="cashInput" id="powerUsage">
+    </div>
+
+    <div class="kwtocash">
+        <label for="time" class="label">Enter Time Usage: </label>
+        <input type="text" class="cashInput" id="time">
+    </div>
+
+    <div class="kwtocash">
+        <button class="select" id="powerButton">Calculate</button>
+    </div>
+
+    <div class="kwtocash">
+        <p id="powerusageP"></p>
+    </div>
+
+    <div class="kwtocash">
+        <p id="powerusageCash"></p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="kwtocash" id="kw">
+        <h3 id="kwcash">If your device shows the Watts then you can calculate the kW below: </h3>
+    </div>
+
+    <div class="kwtocash" id="kwcash">
+        <label for="inputWatts" class="label" id="inputCash">Enter Wattage: </label>
+        <input type="text" class="cashInput" id="inputWatts">
+    </div>
+
+    <div class="kwtocash">
+        <button class="select" id="wattageButton">Convert</button>
+    </div>
+    
+    
+
+    <script src="Calc.js"></script>
+</body>
+</html>
